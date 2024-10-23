@@ -1,4 +1,4 @@
-.grid-1 {
+/* .grid-1 {
     display: grid;
     grid-template-columns: 50% 47%;
     grid-template-areas: "col-1 col-2";
@@ -46,4 +46,4 @@
 
 .grid-3-col-3 {
     grid-area: col-3;
-}
+} */

@@ -2,8 +2,39 @@
     display: none;
 }
 
+@media (max-width:599px) {
+
+    .grid-2-row-1,
+    .grid-2-row-2 {
+        display: block;
+        width: 100%;
+    }
+
+    .grid-2-row-1>img {
+        width: 100%;
+    }
+
+    .grid-2-row-2>img {
+        width: 100%;
+    }
+
+    .grid-2-row-1>div {
+        margin-inline: 0;
+        margin-block: 24px;
+    }
+
+    .grid-2-row-2>div {
+        margin-inline: 0;
+        margin-block: 24px;
+    }
+}
+
 /* Medium Screens */
-@media (min-width: 600px) and (max-width:900px) {
+@media (min-width: 600px) and (max-width:1150px) {
+    * {
+        font-size: 12px;
+    }
+
     .menu-icon {
         display: block;
     }
@@ -17,25 +48,26 @@
     }
 
     .title {
-        font-size: 5em;
+        font-size: 7em;
     }
 
-    .grid-1 {
-        display: grid;
-        grid-template-rows: 45% 45%;
-        grid-template-areas:
-            "row-1"
-            "row-2";
+
+    .grid-1>.grid-1-col-1>div>img {
+        width: 100%;
     }
 
-    .grid-1-col-1 {
+    .grid-1>.grid-1-col-1>img {
+        width: 100%;
+    }
+
+    /* .grid-1-col-1 {
         grid-area: row-1;
     }
 
     .grid-1-col-2 {
         grid-area: row-2;
 
-    }
+    } */
 
     /* .grid-2 {
         display: grid;
@@ -53,6 +85,10 @@
         grid-area: row-2;
     } */
 
+    /* .grid-3 {
+        display: none;
+    } */
+
     .w-100 {
         width: auto;
     }
@@ -63,7 +99,13 @@
 
 }
 
-@media (max-width:599px) {
+/* Large Screens */
+
+@media (min-width:1151px) {
+    /* * {
+        font-size: 8px;
+    }
+
     .menu-icon {
         display: block;
     }
@@ -78,5 +120,52 @@
 
     .title {
         font-size: 5em;
+    } */
+
+    /* grid */
+    .grid-1 {
+        display: grid;
+        grid-template-columns: 50% 47%;
+        grid-template-areas: "col-1 col-2";
+        justify-content: space-between;
     }
+
+    .grid-1-col-1 {
+        grid-area: col-1;
+    }
+
+    .grid-1-col-2 {
+        grid-area: col-2;
+
+    }
+
+    .grid-2 {
+        display: grid;
+        grid-template-rows: 45% 45%;
+        grid-template-areas: "row-1" "row-2";
+        align-content: space-between;
+    }
+
+    .grid-2-row-1 {
+        grid-area: row-1;
+    }
+
+    .grid-2-row-2 {
+        grid-area: row-2;
+    }
+
+    .grid-3 {
+        display: grid;
+        grid-template-columns: 34% 34% 34%;
+        grid-template-areas: "col-1 col-2 col-3";
+        justify-content: space-between;
+    }
+
+
+
+    /* .grid-1,
+    .grid-3 {
+        display: none;
+    } */
+
 }

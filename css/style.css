@@ -377,6 +377,9 @@
 /* border end */
 
 /*  */
+.title {
+    font-size: 1em;
+}
 
 .line {
     border-bottom: 1px gray solid;
@@ -392,4 +395,12 @@
 
 .decoration-underline {
     text-decoration: underline;
+}
+
+.menu-icon {
+    display: block;
+}
+
+.navbar {
+    display: none;
 }

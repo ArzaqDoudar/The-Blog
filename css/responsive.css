@@ -102,25 +102,26 @@
 /* Large Screens */
 
 @media (min-width:1151px) {
-    /* * {
-        font-size: 8px;
-    }
-
     .menu-icon {
-        display: block;
+        display: none;
     }
 
     .navbar {
-        display: none;
+        display: block;
     }
+
+    /* 
+
+    
 
     .line {
         width: 100%;
     }
 
+    */
     .title {
-        font-size: 5em;
-    } */
+        font-size: 15em;
+    }
 
     /* grid */
     .grid-1 {

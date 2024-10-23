@@ -13,7 +13,7 @@
     <!-- font awesome end -->
 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/blog-style.css">
+    <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/categories-style.css">
 </head>
 
@@ -28,11 +28,15 @@
                     <li class="nav-list-item font-3">Projects</li>
                     <li class="nav-list-item font-3">About</li>
                     <li class="nav-list-item font-3">Newsletter</li>
-                    <li class="nav-list-item font-3"><button
-                            class="py-1 px-2 font-2 font-weight-4 bg-black color-white border-none shadow border-radius-4">
-                            <i class="fas fa-sign-in color-white font-2"></i> Login</button>
+                    <li class="nav-list-item">
+                        <div class="bg-black border-radius-30 d-flex justify-content-around align-items-center"
+                            style="width: 90px;">
+                            <img src="images/sun.png" alt="sun icon" class="m-1">
+                            <div class="bg-white m-1" style="width: 24px; height: 24px; border-radius: 20px;"></div>
+                        </div>
                     </li>
                 </ul>
+
             </nav>
         </div>
     </header>
@@ -47,18 +51,19 @@
         <div class="w-80 line shadow"></div>
     </div>
 
-
+    <!-- Recent blog posts -->
     <section class="d-flex justify-content-center">
         <div class="w-80">
-            <p class="font-3 my-2">Recent blog posts</p>
-            <div class="blog-1">
-                <div class="blog-1-col-1">
+            <p class="font-3 font-bold my-2">Recent blog posts</p>
+            <div class="grid-1 my-6">
+                <div class="grid-1-col-1">
                     <div class="w-100">
-                        <img src="images/Image-1.png" class="w-100" alt="">
-                        <div class="my-3">
+                        <img src="images/Image-1.png" class="w-100" alt="Image-1">
+                        <div class="my-3 ">
                             <p class="color-purple my-1">Olivia Rhye • 1 Jan 2023</p>
                             <p class="font-3 font-bold d-flex justify-content-between my-1">UX review presentations
-                                <i class="fa-solid fa-up-right-and-down-left-from-center font-2"></i>
+                                <a href="https://www.google.com/" target="_blank class=" color-black"><i
+                                        class="fa-solid fa-up-right-and-down-left-from-center font-2"></i></a>
                             </p>
                             <p class="color-gray w-80 my-1">How do you create compelling presentations that wow your
                                 colleagues
@@ -71,23 +76,24 @@
                         </div>
                     </div>
                 </div>
-                <div class="blog-1-col-2">
-                    <div class="blog-1-col-2-row-1 w-100 d-flex justify-content-between">
-                        <div><img src="images/Image-2.png" alt=""></div>
-                        <div class="mx-4">
-                            <p class="color-purple my-1">Phoenix Baker • 1 Jan 2023</p>
-                            <p class="font-3 font-bold d-flex justify-content-between my-1">Migrating to Linear 101</p>
-                            <p class="color-gray w-80 my-1">Linear helps streamline software projects, sprints, tasks,
+                <div class="grid-1-col-2 grid-2">
+                    <div class="grid-2-row-1 w-100 d-flex justify-content-between">
+                        <img src="images/Image-2.png" alt="Image-2">
+                        <div class="mx-4 d-flex d-column justify-content-evenly">
+                            <p class="color-purple">Phoenix Baker • 1 Jan 2023</p>
+                            <p class="font-3 font-bold d-flex justify-content-between">Migrating to Linear 101</p>
+                            <p class="color-gray w-80">Linear helps streamline software projects, sprints, tasks,
                                 and bug tracking. Here’s how to get...</p>
-                            <div class="categories d-flex my-3">
+                            <div class="categories d-flex">
                                 <div class="category-block block-babyblue">Design</div>
                                 <div class="category-block block-pink">Research</div>
                             </div>
                         </div>
                     </div>
-                    <div class="blog-1-col-2-row-2 w-100 d-flex justify-content-between">
-                        <div><img src="images/Image-3.png" alt=""></div>
-                        <div class="mx-4">
+                    <div class="grid-2-row-2 w-1 d-flex justify-content-between">
+
+                        <img src="images/Image-3.png" alt="Image-3">
+                        <div class="mx-4 d-flex d-column justify-content-evenly">
                             <p class="color-purple my-1">Lana Steiner • 1 Jan 2023</p>
                             <p class="font-3 font-bold d-flex justify-content-between my-1">Building your API Stack</p>
                             <p class="color-gray w-80 my-1">The rise of RESTful APIs has been met by a rise in tools for
@@ -100,17 +106,201 @@
                     </div>
                 </div>
             </div>
+            <div class="grid-1 my-6">
+                <div class="grid-1-col-1">
+                    <img src="images/Image-4.png" class="w-100" alt="Image-4">
+                </div>
+                <div class="grid-1-col-2 d-flex d-column justify-content-evenly">
+                    <p class="color-purple my-1">Olivia Rhye • 1 Jan 2023</p>
+                    <p class="font-3 font-bold d-flex justify-content-between my-1">Grid system for better Design User
+                        Interface
+                        <a href="#" target="_blank" class="color-black"><i
+                                class="fa-solid fa-up-right-and-down-left-from-center font-2"></i></a>
+                    </p>
+                    <p class="color-gray w-80 my-1">A grid system is a design tool used to arrange content on a webpage.
+                        It is a series of vertical and horizontal lines that create a matrix of intersecting points,
+                        which can be used to align and organize page elements. Grid systems are used to create a
+                        consistent look and feel across a website, and can help to make the layout more visually
+                        appealing and easier to navigate.</p>
+                    <div class="categories d-flex my-3">
+                        <div class="category-block block-purple">Design</div>
+                        <div class="category-block block-pink">Interface</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- All blog posts -->
+    <section class="d-flex justify-content-center">
+        <div class="w-80">
+            <p class="font-3 font-bold my-2">All blog posts</p>
+            <div class="grid-3 my-2">
+
+                <div class="grid-3-col-1 d-flex justify-content-center">
+                    <div class="w-100 d-flex d-column align-items-center">
+                        <img src="images/Image-5.png" alt="Image-5" class="w-80">
+                        <div class="w-80 my-2">
+                            <p class="color-purple my-1">Alec Whitten • 1 Jan 2023</p>
+                            <p class="font-3 font-bold d-flex justify-content-between my-1">Bill Walsh leadership
+                                lessons
+                                <a href="#" target="_blank" class="color-black"><i
+                                        class="fa-solid fa-up-right-and-down-left-from-center font-2"></i></a>
+                            </p>
+                            <p class="color-gray my-1">Like to know the secrets of transforming a 2-14 team into a 3x
+                                Super Bowl winning Dynasty?</p>
+
+                            <div class="categories d-flex my-3">
+                                <div class="category-block block-purple">Leadership</div>
+                                <div class="category-block block-gray">Management</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-3-col-2">
+                    <div class="w-100 d-flex d-column align-items-center">
+                        <img src="images/Image-6.png" alt="Image-6" class="w-80">
+                        <div class="w-80 my-2">
+                            <p class="color-purple my-1">Demi WIlkinson • 1 Jan 2023</p>
+                            <p class="font-3 font-bold d-flex justify-content-between my-1">PM mental models
+                                <a href="#" target="_blank" class="color-black"><i
+                                        class="fa-solid fa-up-right-and-down-left-from-center font-2"></i></a>
+                            </p>
+                            <p class="color-gray my-1">Mental models are simple expressions of complex processes or
+                                relationships.</p>
+
+                            <div class="categories d-flex my-3">
+                                <div class="category-block block-babyblue">Product</div>
+                                <div class="category-block block-blue">Research</div>
+                                <div class="category-block block-orange">Frameworks</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-3-col-3">
+                    <div class="w-100 d-flex d-column align-items-center">
+                        <img src="images/Image-7.png" alt="Image-7" class="w-80">
+                        <div class="w-80 my-2">
+                            <p class="color-purple my-1">Candice Wu • 1 Jan 2023</p>
+                            <p class="font-3 font-bold d-flex justify-content-between my-1">What is Wireframing?
+                                <a href="#" target="_blank" class="color-black"><i
+                                        class="fa-solid fa-up-right-and-down-left-from-center font-2"></i></a>
+                            </p>
+                            <p class="color-gray my-1">Introduction to Wireframing and its Principles. Learn from the
+                                best in the industry.</p>
+
+                            <div class="categories d-flex my-3">
+                                <div class="category-block block-purple">Design</div>
+                                <div class="category-block block-blue">Research</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="grid-3 my-2">
+                <div class="grid-3-col-1 d-flex justify-content-center">
+                    <div class="w-100 d-flex d-column align-items-center">
+                        <img src="images/Image-8.png" alt="Image-8" class="w-80">
+                        <div class="w-80 my-2">
+                            <p class="color-purple my-1">Natali Craig • 1 Jan 2023</p>
+                            <p class="font-3 font-bold d-flex justify-content-between my-1">How collaboration makes
+                                us<br>
+                                better designers
+                                <a href="#" target="_blank" class="color-black"><i
+                                        class="fa-solid fa-up-right-and-down-left-from-center font-2"></i></a>
+                            </p>
+                            <p class="color-gray my-1">Like to know the secrets of transforming a 2-14 team into a 3x
+                                Super Bowl winning Dynasty?
+                            </p>
+
+                            <div class="categories d-flex my-3">
+                                <div class="category-block block-purple">Design</div>
+                                <div class="category-block block-blue">Research</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-3-col-2">
+                    <div class="w-100 d-flex d-column align-items-center">
+                        <img src="images/Image-9.png" alt="Image-9" class="w-80">
+                        <div class="w-80 my-2">
+                            <p class="color-purple my-1">Drew Cano • 1 Jan 2023</p>
+                            <p class="font-3 font-bold d-flex justify-content-between my-1">Our top 10 Javascript<br>
+                                frameworks to use
+                                <a href="#" target="_blank" class="color-black"><i
+                                        class="fa-solid fa-up-right-and-down-left-from-center font-2"></i></a>
+                            </p>
+                            <p class="color-gray my-1">JavaScript frameworks make development easy with extensive
+                                features and functionalities.</p>
+
+                            <div class="categories d-flex my-3">
+                                <div class="category-block block-green">Software Development</div>
+                                <div class="category-block block-pink">css</div>
+                                <div class="category-block block-red">SaaS</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-3-col-3">
+                    <div class="w-100 d-flex d-column align-items-center">
+                        <img src="images/Image-10.png" alt="Image-10" class="w-80">
+                        <div class="w-80 my-2">
+                            <p class="color-purple my-1">Orlando Diggs • 1 Jan 2023</p>
+                            <p class="font-3 font-bold d-flex justify-content-between my-1">Podcast: Creating a
+                                better<br>
+                                CX Community
+                                <a href="#" target="_blank" class="color-black"><i
+                                        class="fa-solid fa-up-right-and-down-left-from-center font-2"></i></a>
+                            </p>
+                            <p class="color-gray my-1">Starting a community doesn’t need to be complicated, but how do
+                                you get started?</p>
+
+                            <div class="categories d-flex my-3">
+                                <div class="category-block block-purple">Podcasts</div>
+                                <div class="category-block block-gray">Customer Success</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="line-light"></div>
+            <div class="my-5 d-flex justify-content-between">
+                <button class="color-gray font-2 bg-none border-none"><i class="fa-solid fa-arrow-left"></i>
+                    previous</button>
+                <ul class="d-flex">
+                    <li class="d-inline p-1 color-purple block-purple border-radius-8 border-purple">1</li>
+                    <li class="d-inline p-1 color-gray">2</li>
+                    <li class="d-inline p-1 color-gray">3</li>
+                    <li class="d-inline p-1 color-gray">...</li>
+                    <li class="d-inline p-1 color-gray">8</li>
+                    <li class="d-inline p-1 color-gray">9</li>
+                    <li class="d-inline p-1 color-gray">10</li>
+                </ul>
+                <button class="color-gray font-2 bg-none border-none">Next <i
+                        class="fa-solid fa-arrow-right"></i></button>
+            </div>
         </div>
     </section>
 
 
 
     <!-- just for testing -->
-    <section style="height: 600px;"></section>
+    <section style="height: 60px;"></section>
+
     <div class="d-flex justify-content-center">
         <div class="w-80 line shadow"></div>
     </div>
-    <footer class="d-flex justify-content-center ">
+    <footer class="d-flex justify-content-center my-3">
         <div class="w-80">
             <ul class="d-flex p-0">
                 <li class="d-inline p-1 font-bold" style="padding-inline-start: 0;">&copy; 2024</li>

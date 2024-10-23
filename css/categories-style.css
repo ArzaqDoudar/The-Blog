@@ -1,0 +1,46 @@
+.category-block {
+    font-size: 1em;
+    border-radius: 16px;
+    padding-inline: 10px;
+    margin-inline-end: 10px;
+}
+
+.block-purple {
+    background-color: #F9F5FF;
+    color: #6941C6;
+}
+
+.block-blue {
+    background-color: #EEF4FF;
+    color: #3538CD;
+}
+
+.block-pink {
+    background-color: #FDF2FA;
+    color: #C11574;
+}
+
+.block-green {
+    background-color: #ECFDF3;
+    color: #027A48;
+}
+
+.block-red {
+    background-color: #FFF1F3;
+    color: #C01048;
+}
+
+.block-orange {
+    background-color: #FFF6ED;
+    color: #C4320A;
+}
+
+.block-gray {
+    background-color: #F8F9FC;
+    color: #363F72;
+}
+
+.block-babyblue {
+    background-color: #F0F9FF;
+    color: #026AA2;
+}

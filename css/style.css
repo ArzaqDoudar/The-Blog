@@ -8,6 +8,10 @@
 }
 
 /* layout start */
+.w-100 {
+    width: 100%;
+}
+
 .w-90 {
     width: 90%;
 }
@@ -217,6 +221,96 @@
 
 /* padding end */
 
+/* margin start */
+.m-0 {
+    margin: 0;
+}
+
+.m-1 {
+    margin: 8px;
+}
+
+.m-2 {
+    margin: 16px;
+}
+
+.m-3 {
+    margin: 20px;
+}
+
+.m-4 {
+    margin: 24px;
+}
+
+.m-5 {
+    margin: 30px;
+}
+
+.m-6 {
+    margin: 40px;
+}
+
+/* x */
+.mx-0 {
+    margin-inline: 0;
+}
+
+.mx-1 {
+    margin-inline: 8px;
+
+}
+
+.mx-2 {
+    margin-inline: 16px;
+}
+
+.mx-3 {
+    margin-inline: 20px;
+}
+
+.mx-4 {
+    margin-inline: 24px;
+}
+
+.mx-5 {
+    margin-inline: 30px;
+}
+
+.mx-6 {
+    margin-inline: 40px;
+}
+
+/* y */
+.my-0 {
+    margin-block: 0;
+}
+
+.my-1 {
+    margin-block: 8px;
+}
+
+.my-2 {
+    margin-block: 16px;
+}
+
+.my-3 {
+    margin-block: 20px;
+}
+
+.my-4 {
+    margin-block: 24px;
+}
+
+.my-5 {
+    margin-block: 30px;
+}
+
+.my-6 {
+    margin-block: 40px;
+}
+
+/* margin end */
+
 
 /* color start */
 .bg-red {
@@ -231,6 +325,14 @@
     background-color: green;
 }
 
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-violet {
+    background-color: violet;
+}
+
 .bg-black {
     background-color: black;
 }
@@ -239,8 +341,16 @@
     color: white;
 }
 
+.bg-white {
+    background-color: white;
+}
+
 .color-gray {
     color: gray;
+}
+
+.color-purple {
+    color: #6941C6;
 }
 
 /* color end */
